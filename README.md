@@ -18,3 +18,6 @@ std::uniform_int_distribution<int> vector_distr(2, 20); // element values and si
 since prints sometimes affect the performance of the code then sleep can be commented out in generator.cpp file
 
 
+## Excuses :D
+
+Since the task didn't specify if the data should be processed or not when generator stops (after the time limit) the app just consumes all the generated data and calculates result and then exits the program.
